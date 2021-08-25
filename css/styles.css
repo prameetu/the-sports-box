@@ -1,0 +1,47 @@
+#title{
+    background-color:#DA0037 ;
+    color: white;
+    padding: 1% 8%;
+}
+body {
+  background-color: gainsboro;
+  font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.3;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+}
+p {
+  font-family: "Source Sans Pro", sans-serif;
+}
+.nav-item{
+    padding: 0 15px 0 15px;
+}
+.nav-link{
+    font-size: 1rem;
+    font-weight: 100;
+}
+.sport-img{
+    width: 500px;
+    height: 500px;
+}
+
+.navbar-brand{
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+}
+.navbar{
+    padding-bottom: 60px;
+}
+
+/* DOwnload buttons */
+
+.download-button{
+    margin: 20px 10px 20px 0
+}
