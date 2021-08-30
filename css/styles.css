@@ -1,5 +1,5 @@
 #title {
-  background-color: #3f72af;
+  background-color: #161616;
   color: white;
   padding: 1% 8%;
 }
@@ -22,7 +22,6 @@ h3 {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 800;
   font-size: 1.8rem;
-  color: #3f72af;
 }
 h4 {
   font-family: "Source Sans Pro", sans-serif;
@@ -53,6 +52,9 @@ em {
   font-size: 1rem;
   font-weight: 100;
 }
+#navbarSupportedContent{
+  justify-content: flex-end;
+}
 
 /* DOwnload buttons */
 
@@ -66,7 +68,7 @@ em {
 }
 #features {
   padding: 8% 10%;
-  background-color: #d6e6f2;
+  background-color: #E8E8E8;
 }
 .feat-col {
   text-align: center;
@@ -79,7 +81,7 @@ em {
 }
 
 #testimonials {
-  background-color: #769fcd;
+  background-color: #FFC107;
   color: white;
   text-align: center;
 }
@@ -94,7 +96,7 @@ em {
   border-radius: 50%;
 }
 #locations {
-  background-color: #d6e6f2;
+  background-color: #E8E8E8;
   padding: 8% 8%;
   text-align: center;
 }
@@ -102,7 +104,7 @@ em {
   padding: 0px;
 }
 .loc-title {
-  color: #3f72af;
+  color: #465881;
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
   margin-bottom: 50px;
@@ -119,28 +121,37 @@ em {
 }
 
 #Pricing {
-  background-color: #769fcd;
-  padding: 8% 8%;
+  background-color: #C9CCD5;
+  padding: 2% 8% 8% 8%;
   text-align: center;
+}
+.gym-img{
+  width: 120px;
+  height: 120px;
+  display: inline-block;
 }
 .pricing-head{
     font-weight: 900;
+    color: #161616;
+    display: inline-block;
+
 }
 .pricing-desc{
     font-size: 1.2rem;
     font-weight: 500;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
     color: #465881;
 }
 .card-header {
-  background-color: #b9d7ea;
+  background-color: #161616;
+  color: #EEEEEE;
 }
 .card-body {
-  background-color: #d6e6f2;
+  background-color: #EEEEEE;
   text-align: left;
 }
 .card-footer {
   border: none;
-  background-color: #d6e6f2;
+  background-color: #EEEEEE;
   text-align: center;
 }
