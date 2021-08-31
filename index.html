@@ -40,18 +40,18 @@
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">Contact</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
-                  Dropdown
+                  Products
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="#">Action</a></li>
@@ -197,83 +197,104 @@
     </div>
   </section>
 
-  <!--Testimonials-->
-  <section id="testimonials">
+  <!--Trending Products-->
+  <section id="Products">
+    <img class="trending" src="images/trending.png">
+    <h2 class="products-desc">TRENDING PRODUCTS</h2>
 
-    <div id="carouselExampleIndicators" class="carousel slide" data-interval="false">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <h2>First of its kind of store.If you are into sports this store is definetely to look out for !
-          </h2>
-          <img class="testimonial-img" src="images/prameet.jpg">
-          <em>Prameet,Banglore</em>
-        </div>
-        <div class="carousel-item">
-          <h2> Great peronalized jerseys ! Definetely a great store for sporty people!
-          </h2>
-          <img class="testimonial-img" src="images/avik.jpg">
-          <em>Avik,Pune</em>
-        </div>
-        <div class="carousel-item">
-          <h2>Great Range of whey protiens and multivitamins.Authentic quality with international trademark.Great shop
-            for fitness freaks !</h2>
-          <img class="testimonial-img" src="images/saket.jpg">
-          <em>Saket,Delhi</em>
 
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col-lg-4 col-md-6">
+        <div class="card h-100">
+          <img src="images/dumbells.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Hexa Dumbells 10kg</h5>
+            <h3 class="card-price">Rs 2999/-</h3>
+            <p class="card-text">A tough, premium rubber casing made from virgin and recycled rubber covers each cast
+              iron head. The chrome plated handles are ergonomically designed to fit comfortably into the palm of your
+              hands.</p>
+          </div>
+          <div class="card-footer">
+            <button type="button" class="btn btn-outline-warning btn-light buy-button">Buy Now</button>
+          </div>
         </div>
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
+      <div class="col-lg-4 col-md-6">
+        <div class="card h-100">
+          <img src="images/cycle.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Hercules Roadeo A75 Cycle</h5>
+            <h3 class="card-price">Rs 9999/-</h3>
+            <p class="card-text">The Hercules Topgear range promises the thrill of geared cycling along with the rugged
+              sturdiness fof MTB bikes. These bikes offer the perfect combination of strength and ease of manoeuvring
+            </p>
+          </div>
+          <div class="card-footer">
+            <button type="button" class="btn btn-outline-warning btn-light buy-button">Buy Now</button>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="card h-100">
+          <img src="images/fcb.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Nike Men's Barcelona T-Shirt</h5>
+            <h3 class="card-price">Rs 1799/-</h3>
+            <p class="card-text">Like other shirts from our Stadium collection, the F.C. Barcelona Shirt pairs replica
+              design details with sweat-wicking fabric to give you a game-ready look inspired by your favourite
+              team</p>
+          </div>
+          <div class="card-footer">
+            <button type="button" class="btn btn-outline-warning btn-light buy-button">Buy Now</button>
+
+          </div>
+        </div>
+      </div>
     </div>
+
+
 
   </section>
 
+  <!--Gym Pricing-->
+
   <section id="Pricing">
-    <img class="gym-img"src="images/gym2.png">
+    <img class="gym-img" src="images/gym2.png">
     <h1 class="pricing-head">Plan for whoever thinks FITNESS</h1>
-    <img class="gym-img"src="images/gym2.png">
+    <img class="gym-img" src="images/gym2.png">
     <p class="pricing-desc">Simple and affordable price for all you gym freaks to bring out your beast</p>
 
 
     <div class="row">
       <div class="col-lg-4 col-md-6">
         <div class="card">
-          <div class="card-header">
+          <div class="card-header card-pricing-head">
             <h3>Classic Plan</h3>
           </div>
-          <div class="card-body">
-            <h4>  Rs. 4999 / 3 months </h4>
+          <div class="card-body card-pricing-body">
+            <h4> Rs. 4999 / 3 months </h4>
             <ul>
               <li>3 months membership</li>
               <li>Cardio and Strength Trainig</li>
               <li>Personal Trainer</li>
             </ul>
-           
+
           </div>
-          <div class="card-footer">
+          <div class="card-footer card-pricing-footer">
             <button type="button" class="btn btn-outline-info btn-light register-button">Register Now</button>
           </div>
-          
+
         </div>
       </div>
 
       <div class="col-lg-4 col-md-6">
         <div class="card">
-          <div class="card-header">
+          <div class="card-header card-pricing-head">
             <h3>Hardcore Plan</h3>
           </div>
-          <div class="card-body">
+          <div class="card-body card-pricing-body">
             <h4>Rs. 5999 / 6 months </h4>
             <ul>
               <li>6 months membership</li>
@@ -282,7 +303,7 @@
             </ul>
 
           </div>
-          <div class="card-footer">
+          <div class="card-footer card-pricing-footer">
             <button type="button" class="btn btn-outline-info btn-light register-button">Register Now</button>
           </div>
         </div>
@@ -290,10 +311,10 @@
 
       <div class="col-lg-4 col-md-12">
         <div class="card">
-          <div class="card-header">
+          <div class="card-header card-pricing-head">
             <h3>Beast Plan</h3>
           </div>
-          <div class="card-body">
+          <div class="card-body card-pricing-body">
             <h4>Rs. 10999 / 12 months </h4>
             <ul>
               <li>12 months membership</li>
@@ -302,7 +323,7 @@
             </ul>
 
           </div>
-          <div class="card-footer">
+          <div class="card-footer card-pricing-footer">
             <button type="button" class="btn btn-outline-info btn-light register-button">Register Now</button>
           </div>
         </div>
@@ -311,20 +332,30 @@
 
   </section>
 
+  <!-- Closure -->
+  <section id="closure">
+    <img class="fitness-img" src="images/fitness.png">
+    <h2>Start you fitness journey right away with us !</h2>
+    <img class="fitness-img" src="images/fitness2.png">
+    <div downloads-closure>
+      <button type="button" class="btn btn-outline-dark btn-lg download-button-closure"><i class="fab fa-apple"></i>
+        Download</button>
+      <button type="button" class="btn btn-outline-dark btn-lg download-button-closure"><i
+          class="fab fa-google-play"></i>
+        Download</button>
+    </div>
 
 
+    <div class="social">
+      <a href=""><img class="soc-img" src="images/twitter.png"></a>
+      <a href=""><img class="soc-img" src="images/fb.png"></a>
+      <a href=""><img class="soc-img" src="images/insta.png"></a>
 
+      <p>@The Sports Box 2021.All Rights Reserved</p>
 
+    </div>
 
-
-
-
-
-
-
-
-
-
+  </section>
 
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"

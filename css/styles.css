@@ -31,7 +31,6 @@ h4 {
 p {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 300;
-  color: #465881;
 }
 em {
   font-weight: 100;
@@ -120,8 +119,44 @@ em {
   height: 120px;
 }
 
+/* Products */
+#Products{
+  background-color: #FFC107;
+  padding: 8% 8%;
+}
+.trending{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 70px;
+  margin-left: 150px;
+
+}
+.products-desc{
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 70px;
+  font-size: 60px;
+  display: inline-block;
+}
+.card-title{
+  font-weight: 600;
+}
+.card-price{
+  font-weight: 800;
+}
+.card-img-top{
+  width: 100%;
+  height: 50%;
+}
+.buy-button{
+  font-weight: 800;
+  text-align: center;
+}
+
+
 #Pricing {
-  background-color: #C9CCD5;
+  background-color: #E8E8E8;
   padding: 2% 8% 8% 8%;
   text-align: center;
 }
@@ -142,16 +177,47 @@ em {
     margin-bottom: 50px;
     color: #465881;
 }
-.card-header {
+.card-pricing-head {
   background-color: #161616;
   color: #EEEEEE;
 }
-.card-body {
-  background-color: #EEEEEE;
+.card-pricing-body {
+  background-color: #C9CCD5;
   text-align: left;
 }
-.card-footer {
+.card-pricing-footer {
   border: none;
-  background-color: #EEEEEE;
+  background-color: #C9CCD5;
   text-align: center;
+}
+.register-button{
+  font-weight: 800;
+  
+}
+
+/* Closure */
+#closure{
+  padding: 5% 8% 1% 8%;
+  background-color: #FFC107;
+  text-align: center;
+}
+.fitness-img{
+  width:300px;
+  height: 100px;
+}
+.downloads-closure{
+  margin: 30px;
+}
+.download-button-closure{
+  font-weight: 900;
+}
+.social{
+  margin-top: 100px;
+  color: #161616;
+}
+.soc-img{
+  display: inline-block;
+  height: 35px;
+  width: 35px;
+  margin-right: 10px;
 }
