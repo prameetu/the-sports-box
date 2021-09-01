@@ -36,6 +36,7 @@ em {
   font-weight: 100;
   color: #eeeeee;
 }
+/* NavBar */
 .navbar-brand {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 30px;
@@ -54,16 +55,26 @@ em {
 #navbarSupportedContent{
   justify-content: flex-end;
 }
+/* Intro Page */
 
 /* DOwnload buttons */
 
 .download-button {
   margin: 20px 10px 20px 0;
 }
+
 .sport-img {
-  width: 450px;
+  width: 350px;
   height: 400px;
-  padding-left: 100px;
+  margin
+  : 0 100px;
+}
+.title-para{
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.3;
+  color: #eeeeee;
 }
 #features {
   padding: 8% 10%;
@@ -220,4 +231,14 @@ em {
   height: 35px;
   width: 35px;
   margin-right: 10px;
+}
+
+@media (max-width:795px) {
+  #title{
+    text-align: center;
+  }
+  .sport-img {
+    width: 350px;
+    height: 400px;
+  }
 }
